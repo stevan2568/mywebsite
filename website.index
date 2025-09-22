@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sample App - Google Play Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+    }
+    .app-icon {
+      width: 120px;
+      height: 120px;
+      border-radius: 24px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 5px;
+    }
+    .developer {
+      color: #555;
+      margin-bottom: 15px;
+    }
+    .button {
+      background-color: #3ddc84;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  </style>
+</head>
 <body>
 
-<p>I am normal</p>
-<p style="color:red;">I am red</p>
-<p style="color:blue;">I am blue</p>
-<p style="font-size:50px;">I am big</p>
+  <img class="app-icon" src="https://play-lh.googleusercontent.com/a-/AOh14GgOZk0T3RGx6PQ9vMFgh6RO_JvJ7N87qu2cCyHS=s360" alt="App Icon" />
+
+  <h1>Sample App</h1>
+  <div class="developer">Developer: Example Dev</div>
+  <p>This is a sample description of the app. It explains the app’s features and why users should download it.</p>
+
+  <a href="https://play.google.com/store/apps/details?id=com.example.app" target="_blank" rel="noopener noreferrer" class="button">
+    Install
+  </a>
 
 </body>
 </html>
